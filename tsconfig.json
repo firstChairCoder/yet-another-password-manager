@@ -1,0 +1,13 @@
+{
+  "extends": "eslint-config-react-native-wcandillon/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "lib": [
+      "dom",
+      "es2022"
+    ],
+  }
+}
